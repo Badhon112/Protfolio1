@@ -17,7 +17,7 @@ export default function Header() {
   }, [first]);
   return (
     <div id="Home">
-      <div className=" flex  items-center pr-14">
+      <div className=" flex justify-between items-center pr-14">
         <div className="">
           <p className=" text-base ">MY NAME BADHON BISWAS</p>
           <p className="text-2xl">I Am A Creative :
@@ -25,7 +25,7 @@ export default function Header() {
           </p>
           
         </div>
-        <div className="right overflow-hidden rounded-xl h-3/6 items-end ">
+        <div className="right overflow-hidden rounded-xl h-3/6  ">
           <img src={Badhon} alt="This is A Pictur" />
         </div>
       </div>
