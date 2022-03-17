@@ -40,8 +40,10 @@ import Mern from "../assets/Mern.png"
 import Web from "../assets/Web.jpg"
 import E_commerce from "../assets/E_commerce.png"
 import Social from "../assets/Social.png"
+import Arraw from "../assets/Arraw.png"
 
 export default {
+  Arraw,
   Social,
   E_commerce,
   Web,

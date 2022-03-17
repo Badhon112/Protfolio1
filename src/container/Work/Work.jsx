@@ -5,7 +5,7 @@ import { Images } from "../../constants/Index.js";
 export default function Work() {
   return (
     <div
-      className="Work flex flex-col items-center bg-gradient-to-r from-indigo-100 via-purple-100 to-yellow-50"
+      className="Work flex flex-col items-center bg-gradient-to-r from-fuchsia-100 via-purple-100 to-yellow-50"
       id="Work"
     >
       <div className=" overflow-hidden mt-10">
