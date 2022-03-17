@@ -4,6 +4,7 @@
   height: 70px;
   position: fixed;
   top: 0;
+  scroll-behavior: smooth;
 
   z-index: 2;
 
@@ -32,7 +33,11 @@
   @media screen and (max-width: 900px) {
     display: flex;
   }
+  .Mobil{
+    font-size: 200px;
+  }
 }
 
-.nav {
+.app_navbar_menu{
+
 }

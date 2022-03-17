@@ -11,8 +11,8 @@ export default function AppStore() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
       <div className="sections">
+        <Header />
         <About />
         <Work />
         <Skills />

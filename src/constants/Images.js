@@ -35,8 +35,18 @@ import bolt from "../assets/bolt.png";
 import nb from "../assets/nb.png";
 import skype from "../assets/skype.png";
 import spotify from "../assets/spotify.png";
+import Illustration from "../assets/Illustration.png";
+import Mern from "../assets/Mern.png"
+import Web from "../assets/Web.jpg"
+import E_commerce from "../assets/E_commerce.png"
+import Social from "../assets/Social.png"
 
 export default {
+  Social,
+  E_commerce,
+  Web,
+  Mern,
+  Illustration,
   logo1,
   email,
   mobile,

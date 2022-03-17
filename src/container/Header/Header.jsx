@@ -1,33 +1,17 @@
-import React, { useEffect, useRef } from "react";
-import "./Header.scss";
-import { init } from "ityped";
-import Badhon from "./Badhon4.jpg";
+import React from "react";
+
 export default function Header() {
-  const first = useRef();
-  useEffect(() => {
-    init(first.current, {
-      showCursor: true,
-      backDelay: 1500,
-      backSpeed: 120,
-      strings: [
-        " Developer",
-        
-      ],
-    });
-  }, [first]);
   return (
-    <div id="Home">
-      <div className=" flex justify-between items-center pr-14">
-        <div className="">
-          <p className=" text-base ">MY NAME BADHON BISWAS</p>
-          <p className="text-2xl">I Am A Creative :
-          <span ref={first}></span>
-          </p>
-          
-        </div>
-        <div className="right overflow-hidden rounded-xl h-3/6  ">
-          <img src={Badhon} alt="This is A Pictur" />
-        </div>
+    <div id="Home" className="bg-gradient-to-r from-green-100 via-pink-100 to-blue-100">
+      <div className="flex items-center justify-center mt-40 flex-col">
+        <p className="text-4xl overflow-hidden font-serif">
+          I Am A Mern Developer
+        </p>
+        <p className="my-3 ">
+          I Work As A Team In Professional MERN Stack Web Development
+        </p>
+
+        <a href="#Contact" className="px-8 py-3 rounded-full bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ">Contact Us</a>
       </div>
     </div>
   );
