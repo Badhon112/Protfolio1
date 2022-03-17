@@ -1,0 +1,38 @@
+.nav {
+  transition: all 1s ease;
+
+  height: 70px;
+  position: fixed;
+  top: 0;
+
+  z-index: 2;
+
+  .left {
+    transition: all 0.3s ease-in-out;
+    li {
+      div {
+        width: 7px;
+        height: 7px;
+        background: transparent;
+        border-radius: 50%;
+        margin-bottom: 5px;
+        // background-color: rgb(82, 82, 185);
+      }
+      &:hover {
+        color: rgb(96, 96, 158);
+      }
+      &:hover {
+        div {
+          background-color: rgb(49, 49, 121);
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 900px) {
+    display: flex;
+  }
+}
+
+.nav {
+}
