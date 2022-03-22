@@ -11,14 +11,14 @@ export default function About() {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 120,
-      strings: [" Developer"],
+      strings: [" Developer"," Designer"],
     });
   }, [first]);
   return (
     <div id="About" className="bg-gradient-to-r from-blue-100 via-pink-100 to-green-100">
       <div className=" flex justify-between items-center pr-14 mt-10">
         <div className="pl-40 left">
-          <p className=" text-base ">Hi: I Am BADHON BISWAS</p>
+          <p className=" text-base ">Hi I Am BADHON BISWAS</p>
           <p className="text-2xl">
             I Am A Creative :<span ref={first}></span>
           </p>
