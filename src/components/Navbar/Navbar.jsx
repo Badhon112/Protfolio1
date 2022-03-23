@@ -20,28 +20,6 @@ export default function Navbar() {
             </li>
           ))}
         </ul>
-        {/* <div className="app_navbar_menu">
-          <HiMenuAlt4 onClick={() => setToggle(true)} />
-
-          {toggle && (
-            <motion.div
-              whileInView={{ x: [300, 0] }}
-              transition={{ duration: 0.85, case: "easeOut" }}
-            >
-              <HiX
-                onClick={() => {
-                  setToggle(false);
-                }}
-              />
-              {["Home", "About", "Work", "Skills", "Contact"].map((item) => (
-                <li key={`link-${item}`}>
-                  <div />
-                  <a href={`#${item}`}>{item}</a>
-                </li>
-              ))}
-            </motion.div>
-          )}
-        </div> */}
       </div>
     </nav>
   );
