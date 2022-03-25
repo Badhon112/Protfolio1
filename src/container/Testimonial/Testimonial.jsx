@@ -1,18 +1,14 @@
 import React, { useState } from "react";
 import "./textimonial.scss";
 import { Images } from "../../constants/Index.js";
-import develop from "../../assets/E_commerce.png"
-import Show_E from "../../assets/E_CommerceS.png"
-import iconSocial from "../../assets/Social.png"
-import iconSocial_E from "../../assets/SocialS.png"
-import About from "../../assets/about03.png"
-import git from "../../assets/git.png"
-
-
+import develop from "../../assets/E_commerce.png";
+import Show_E from "../../assets/E_CommerceS.png";
+import iconSocial from "../../assets/Social.png";
+import iconSocial_E from "../../assets/SocialS.png";
+import About from "../../assets/about03.png";
+import git from "../../assets/git.png";
 
 export default function Testimonial() {
-
-  const [currentSlider, setcurrentSlider] = useState(0);
   const data = [
     {
       id: 1,
@@ -36,6 +32,7 @@ export default function Testimonial() {
       img: git,
     },
   ];
+  const [currentSlider, setcurrentSlider] = useState(0);
   const handelClick = (e) => {
     e === "left"
       ? setcurrentSlider(currentSlider > 0 ? currentSlider - 1 : 2)
@@ -44,7 +41,10 @@ export default function Testimonial() {
         );
   };
   return (
-    <div className="Work bg-gradient-to-r from-blue-100 via-pink-100 to-green-100" id="Project">
+    <div
+      className="Work bg-gradient-to-r from-blue-100 via-pink-100 to-green-100"
+      id="Project"
+    >
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlider * 100}vw)` }}
