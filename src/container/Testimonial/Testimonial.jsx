@@ -51,7 +51,7 @@ export default function Testimonial() {
       >
         {data.map((event) => {
           return (
-            <div className="container">
+            <div className="container" key={event.id}>
               <div className="item">
                 <div className="left">
                   <div className="leftcontainer">

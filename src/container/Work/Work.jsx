@@ -12,7 +12,7 @@ export default function Work() {
         <span className="text-3xl">What I Work On</span>
       </div>
       <div className="mt-5 flex flex-col items-center">
-        <div className="top flex space-x-20 ">
+        <div className="top flex space-x-20 overflow-hidden ">
           <div className="flex flex-col items-center w-52 h-60 ">
             <img
               src={Images.figma}
@@ -59,8 +59,8 @@ export default function Work() {
             </span>
           </div>
         </div>
-        <div className="bottom mt-5 flex space-x-20 ">
-          <div className="flex flex-col items-center w-52 h-60 ">
+        <div className="bottom mt-5 flex space-x-20  overflow-hidden">
+          <div className="flex flex-col items-center w-52 h-60">
             <img
               src={Images.react}
               alt="Figma"
