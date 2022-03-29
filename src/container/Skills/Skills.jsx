@@ -5,10 +5,10 @@ import { Images } from "../../constants/Index.js";
 export default function Skills() {
   return (
     <div className="Skills  bg-gradient-to-r from-blue-100 via-pink-100 to-green-100" id="Skills">
-      <div className="text-center">
-        <h1 className="text-3xl text-lime-700 overflow-hidden">Skills On </h1>
+      <div className="text-center overflow-hidden">
+        <span className="text-3xl text-lime-700">Skills On </span>
       </div>
-      <div className="Skill flex justify-center   items-center p-3">
+      <div className="Skill flex justify-center   items-center p-3 overflow-hidden">
         <div className="1 p-3 items-center flex flex-col">
         <img src={Images.cpp} alt=""  className="w-20 h-20 rounded-full border-blue-200 border-4"  />
         </div>
